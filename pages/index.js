@@ -116,7 +116,7 @@ export default function Home() {
               color: "#26384a",
               margin: "18px 0 32px 0"
             }}>
-              At MindBridge, we're here to help you navigate the complexities of mental health. Our resources and support are designed to empower you on your journey to well-being, providing understanding and practical solutions for mental health challenges.
+              At MindBridge, we are here to help you navigate the complexities of mental health. Our resources and support are designed to empower you on your journey to well-being, providing understanding and practical solutions for mental health challenges.
             </p>
             <button style={{
               padding: "12px 44px",
