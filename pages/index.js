@@ -1,4 +1,6 @@
+
 import NavBar from "../components/NavBar";
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -14,9 +16,11 @@ export default function Home() {
         background: "#fff",
         padding: "60px 0 40px 0"
       }}>
-        <img
+        <Image
           src="/mindful.jpg"
           alt="Mindful Journey Preview"
+          width={900}
+          height={600}
           style={{
             maxWidth: 900,
             width: "100%",
@@ -129,9 +133,11 @@ export default function Home() {
               Learn more.
             </button>
           </div>
-          <img
+          <Image
             src="/mental-health-illustration.png"
             alt="Mental Health Illustration"
+            width={410}
+            height={300}
             style={{
               maxWidth: 410,
               width: "100%",
@@ -155,7 +161,7 @@ export default function Home() {
           fontWeight: 700,
           color: "#183C57",
           marginBottom: "1.5rem"
-        }}>We'd love your feedback!</h2>
+        }}>We&apos;d love your feedback!</h2>
         <p style={{
           fontSize: "1.15rem",
           color: "#444",
@@ -203,7 +209,7 @@ function FeatureCard({ title, desc, img, href }) {
       border: "1px solid #e5e7eb"
     }}>
       {img && (
-        <img src={img} alt={title} style={{ width: 54, height: 54, marginBottom: 18 }} />
+        <Image src={img} alt={title} width={54} height={54} style={{ marginBottom: 18 }} />
       )}
       <h3 style={{
         fontSize: "1.15rem",
@@ -220,4 +226,3 @@ function FeatureCard({ title, desc, img, href }) {
     </a>
   );
 }
-
