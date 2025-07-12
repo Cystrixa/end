@@ -1,4 +1,3 @@
-
 import NavBar from "../components/NavBar";
 import Image from "next/image";
 
@@ -73,13 +72,13 @@ export default function Home() {
           <FeatureCard
             title="Addiction Tracker"
             desc="Stay motivated and accountable as you track your progress on the path to recovery."
-            img="/addiction.png"
+            img="/addiction.svg"
             href="/addiction-tracker"
           />
           <FeatureCard
             title="Mood Songs"
             desc="Get personalized song recommendations based on your current mood."
-            img="/mood.png"
+            img="/mood.svg"
             href="/mood-songs"
           />
         </div>
@@ -117,7 +116,7 @@ export default function Home() {
               color: "#26384a",
               margin: "18px 0 32px 0"
             }}>
-              At MindBridge, we&apos;re here to help you navigate the complexities of mental health. Our resources and support are designed to empower you on your journey to well-being, providing understanding and practical solutions for mental health challenges.
+              At MindBridge, we're here to help you navigate the complexities of mental health. Our resources and support are designed to empower you on your journey to well-being, providing understanding and practical solutions for mental health challenges.
             </p>
             <button style={{
               padding: "12px 44px",
@@ -135,8 +134,10 @@ export default function Home() {
           </div>
           <Image
             src="/mental-health-illustration.png"
+            alt="Mental Health Illustration"
             width={410}
             height={300}
+            priority
             style={{
               maxWidth: 410,
               width: "100%",
