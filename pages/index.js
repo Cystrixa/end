@@ -135,7 +135,6 @@ export default function Home() {
           </div>
           <Image
             src="/mental-health-illustration.png"
-            alt="Mental Health Illustration"
             width={410}
             height={300}
             style={{
